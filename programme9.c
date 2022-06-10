@@ -11,7 +11,7 @@ scanf("%d%d",&R,&C);
 printf("enter the elements of matrix a : \n");
 for(i = 0; i<R ; i++)
 {
-for(int j =0; j<C; j++)
+for(j =0; j<C; j++)
 {
 scanf("%d",&a[i][j]);
 }}
