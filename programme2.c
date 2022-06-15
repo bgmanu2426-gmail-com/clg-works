@@ -10,6 +10,6 @@ int main() {
 
     si = (p*r*t)/100;
 
-    printf("the simple interst is %f \n");
+    printf("the simple interst is %f \n",si);
     return 0;
 }
