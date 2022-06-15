@@ -1,13 +1,15 @@
-#include<stdio.h> // to make sum of two integers
+#include<stdio.h> // to compute simple intrest given the principal,intrest and time
 #include<math.h>
 #include<conio.h>
 
 int main() {
-    int a,b,total;
-    printf("Enter the value of a and b \n");
-    scanf("%d%d",&a,&b);
+    float si,p,r,t;
 
-    total=a+b;
-    printf("the sum of two numbers is %d \n",total);
+    printf("enter the values of p,r,t : \n");
+    scanf("%f%f%f",&p,&r,&t);
+
+    si = (p*r*t)/100;
+
+    printf("the simple interst is %f \n");
     return 0;
 }
